@@ -1,2 +1,4 @@
 ## 效果预览
-![Uploading 01.png…]()
+![01](https://github.com/jackloves111/EMBY.JS.CSS/assets/89971817/8736d3ef-e146-4672-a432-34ec423a1801)
+
+
