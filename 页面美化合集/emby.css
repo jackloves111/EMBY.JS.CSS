@@ -238,35 +238,6 @@ input.searchfields-txtSearch {
     backdrop-filter: blur(0.9em);
   }
 }
-/* 弹窗菜单---------------------------------------------------------------- */
-/*【弹框菜单】修复“蓝色绚雅(BlueRadiance)”主题背景颜色样式*/
-.theme-blueradiance:root {
-  --background-hue: 209;
-  --background-saturation: 94%;
-  --background-lightness: 19.61%;
-}
-/*【弹框菜单】修复“万紫千红(SuperMan)”主题背景颜色样式*/
-.theme-superman:root {
-  --background-hue: 220;
-  --background-saturation: 30%;
-  --background-lightness: 20%;
-}
-/*【弹框菜单】修复“媒体中心(WMC)”主题背景颜色样式*/
-.theme-wmc:root {
-  --background-hue: 220;
-  --background-saturation: 78.05%;
-  --background-lightness: 16.08%;
-}
-/*【弹框菜单】修复“右上角选项弹框”样式溢出*/
-.listItem-content.listItemContent-touchzoom .actionsheetListItemBody-iconright {
-  -webkit-padding-end: 0.2em !important;
-  padding-inline-end: 0.2em !important;
-  min-width: 10em;
-}
-/*【弹框菜单】隐藏订阅会员功能按钮*/
-.headerRight .btnHeaderPremiere {
-  display: none;
-}
 /* 播放界面---------------------------------------------------------------------- */
 /*【播放界面】播放器使用网页端横屏风格并修复控件异常和调整控件大小*/
 @media not all and (pointer: fine) {
