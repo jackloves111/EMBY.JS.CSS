@@ -69,12 +69,12 @@ input.searchfields-txtSearch {
   color: rgba(255, 255, 255, 0.92);
 }
 /*【节目界面】全局使用圆角样式和选中状态使用圆角样式*/
-.scrollFrameY .cardImageContainer,
+/* .scrollFrameY .cardImageContainer,
 .scrollFrameY .cardOverlayContainer,
 .scrollFrameY .listItemImage {
   contain: layout;
   border-radius: 0.75em;
-}
+} */
 /*【节目界面】艺术家和作曲家页面使用圆角头像样式*/
 .cardContent-round.defaultCardBackground {
   border-radius: 10em;
