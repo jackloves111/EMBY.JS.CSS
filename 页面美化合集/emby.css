@@ -161,7 +161,7 @@ input.searchfields-txtSearch {
   }
 }
 /*【节目界面】版本、视频、音频、字幕信息自动换行和对齐样式*/
-@media all and (min-width: 80em) {
+/* @media all and (min-width: 80em) {
   .noScrollY .trackSelections,
   .selectContainer .selectSource .selectVideoContainer .selectAudioContainer .selectSubtitlesContainer {
     width: 24em;
@@ -178,7 +178,7 @@ input.searchfields-txtSearch {
   .selectSubtitles.detailTrackSelect {
     margin-top: 0.8em;
   }
-}
+} */
 /*【节目界面】播放器控件按钮添加底色背景样式*/
 @media all and (min-width: 50em) {
   .darkContentContainer-item .detailTrackSelect,
