@@ -236,7 +236,8 @@ class Home {
 				<div class="misty-banner-info padded-left padded-right">
 					<h1>${detail.Name}</h1>
 					<div><p>${detail.Overview}</p></div>
-					<div><button class="misty-banner-item-play">PLAY</button></div>
+     					<div><button onclick="window.require(['appRouter']).then(e=>e[0].showItem('${detail.Id}'))">MORE</button></div>
+
 				</div>
 			</div>
 			`,
@@ -248,6 +249,12 @@ class Home {
 			}
 			$(".misty-banner-body").append(itemHtml);
 			// console.log(item.Id, detail);
+
+			// 239行的<div><button onclick="window.require(['appRouter']).then(e=>e[0].showItem('${detail.Id}'))">MORE</button></div>可以改成下方代码，实现不同效果
+			// 效果一：点击后直接播放
+			// <div><button class="misty-banner-item-play">PLAY</button></div>
+			// 效果二：点击后进入详情页，和原效果相同，只是实现方式不同
+			// 或者  <div><button onclick="Emby.Page.showItem('${detail.Id}')">MORE</button></div>
 
 		});
 		let complete = 0;
