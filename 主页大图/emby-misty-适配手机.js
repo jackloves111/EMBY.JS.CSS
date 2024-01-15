@@ -292,26 +292,28 @@ class Home {
 				clearInterval(this.bannerInterval);
 				this.bannerInterval = setInterval(async () => {
 					// 背景切换
-					index += index + 1 == $(".misty-banner-item").length ? -index : 1;
+					if (window.location.href.endsWith("home") && !document.hidden) {
+						index += index + 1 == $(".misty-banner-item").length ? -index : 1;
 
 
-					$(".misty-banner-body").css({ "left": -(index * 100).toString() + "%", transition: "all 1.5s cubic-bezier(0.15, 0.07, 0, 1) 0s" });
-					// 信息切换
-					$(".misty-banner-info > *").css({ "cssText": "opacity: 0 !important" });
-					$(".misty-banner-info > *").css({
-						transition: "all 2.5s cubic-bezier(0, 1.41, 0.36, 0.93) .4s",
-						transform: "translateY(150%)"
-					});
-					$(".misty-banner-item.active .misty-banner-info > *").css({ "cssText": "opacity: 1 !important" });
-					$(".misty-banner-item.active .misty-banner-info > *").css({ transform: "translateY(0)" });
+						$(".misty-banner-body").css({ "left": -(index * 100).toString() + "%", transition: "all 1.5s cubic-bezier(0.15, 0.07, 0, 1) 0s" });
+						// 信息切换
+						$(".misty-banner-info > *").css({ "cssText": "opacity: 0 !important" });
+						$(".misty-banner-info > *").css({
+							transition: "all 2.5s cubic-bezier(0, 1.41, 0.36, 0.93) .4s",
+							transform: "translateY(150%)"
+						});
+						$(".misty-banner-item.active .misty-banner-info > *").css({ "cssText": "opacity: 1 !important" });
+						$(".misty-banner-item.active .misty-banner-info > *").css({ transform: "translateY(0)" });
 
-					$(".misty-banner-item.active").removeClass("active");
+						$(".misty-banner-item.active").removeClass("active");
 
-					$(".misty-banner-info > *").css({ "cssText": "opacity: 0 !important" });
-					$(".misty-banner-info > *").css({
-						transition: "all 2.5s cubic-bezier(0, 1.41, 0.36, 0.93) .4s",
-						transform: "translateY(150%)"
-					});
+						$(".misty-banner-info > *").css({ "cssText": "opacity: 0 !important" });
+						$(".misty-banner-info > *").css({
+							transition: "all 2.5s cubic-bezier(0, 1.41, 0.36, 0.93) .4s",
+							transform: "translateY(150%)"
+						});
+					}
 
 					let id = $(".misty-banner-item").eq(index).addClass("active").attr("id");
 
