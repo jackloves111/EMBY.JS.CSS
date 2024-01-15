@@ -3,13 +3,15 @@ https://github.com/Shurelol/Emby.CustomCssJS
 
 - [Telegram频道](https://t.me/embycustomcssjs)
 
-## EMBY-beta版（Docker服务器）安装方法
+## EMBY-beta版（Docker服务器端）安装方法
 - root账户登录ssh，输入以下指令一键安装
 ```
 wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackloves111/Emby.CustomCssJS/main/src/script.sh && bash script.sh
 ```
 
-## 目录导航
+- 服务器端安装完成，重启容器，控制台会多出一个自定义JS和CSS的插件，插件内输入以下代码即可实现对应功能
+
+## 自定义JS和CSS目录导航
 1. [主页大图](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E5%A4%A7%E5%9B%BE)
 2. [主页轮播图](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%9B%BE)
 3. [外置播放器](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E5%A4%96%E7%BD%AE%E6%92%AD%E6%94%BE%E5%99%A8)
