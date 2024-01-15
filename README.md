@@ -11,6 +11,8 @@ wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackl
 
 - 服务器端安装完成，重启容器，控制台会多出一个自定义JS和CSS的插件，插件内输入以下代码即可实现对应功能
 
+![photo_2023-05-14_21-45-18](https://github.com/Shurelol/Emby.CustomCssJS/assets/16237201/b3890993-e5e7-497f-915c-8df75c53f64a)
+
 ## 自定义JS和CSS目录导航
 1. [主页大图](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E5%A4%A7%E5%9B%BE)
 2. [主页轮播图](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%9B%BE)
