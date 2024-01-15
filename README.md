@@ -1,6 +1,8 @@
 ## 配套EMBY插件使用
 https://github.com/Shurelol/Emby.CustomCssJS
 
+- [Telegram频道](https://t.me/embycustomcssjs)
+
 ## EMBY-beta版（Docker服务器）安装方法
 - root账户登录ssh，输入以下指令一键安装
 ```
