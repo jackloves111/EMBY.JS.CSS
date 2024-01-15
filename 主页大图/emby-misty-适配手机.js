@@ -291,8 +291,9 @@ class Home {
 				var index = 1;
 				clearInterval(this.bannerInterval);
 				this.bannerInterval = setInterval(async () => {
-					// 背景切换
+					// 禁止标签页后台自动轮播
 					if (window.location.href.endsWith("home") && !document.hidden) {
+						// 背景切换
 						index += index + 1 == $(".misty-banner-item").length ? -index : 1;
 
 
