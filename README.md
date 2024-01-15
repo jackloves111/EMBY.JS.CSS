@@ -22,4 +22,6 @@ wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackl
 
 ## 推荐使用序号2和序号5进行搭配使用
 - 效果图如下
-![780cc11a-7ec8-4789-86bb-51139bf3a438](https://github.com/jackloves111/EMBY.JS.CSS/assets/89971817/1190e531-0374-4912-ad00-c42ddd30086a)
+
+![296552982-1190e531-0374-4912-ad00-c42ddd30086a_看图王](https://github.com/jackloves111/EMBY.JS.CSS/assets/89971817/18f8df26-9677-4f11-8120-7584ebe1c9a0)
+
