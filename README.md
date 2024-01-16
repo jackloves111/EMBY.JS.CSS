@@ -9,7 +9,7 @@ https://github.com/Shurelol/Emby.CustomCssJS
 wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackloves111/Emby.CustomCssJS/main/src/script.sh && bash script.sh
 ```
 
-- 服务器端安装完成，重启容器，控制台会多出一个自定义JS和CSS的插件，插件内输入以下代码即可实现对应功能
+- 服务器端安装完成，重启容器，网页端的控制台会多出一个自定义JS和CSS的插件，插件内输入以下代码即可实现对应功能
 
 ![photo_2023-05-14_21-45-18](https://github.com/Shurelol/Emby.CustomCssJS/assets/16237201/b3890993-e5e7-497f-915c-8df75c53f64a)
 
