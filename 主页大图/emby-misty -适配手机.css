@@ -105,6 +105,7 @@ div.overflowYScroll {
 
 .view:not(.hide) .section0 .cardText button {
 	text-decoration: none;
+	width: 100%;  /* 修复4.8.0.57测试版媒体库名字不居中问题 */
 }
 
 .view:not(.hide) .section0 .cardOverlayContainer {
