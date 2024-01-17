@@ -11,6 +11,7 @@ wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackl
 ```
 
 - 服务器端安装完成，重启容器，网页端的控制台会多出一个自定义JS和CSS的插件，插件内输入以下代码即可实现对应功能
+- 如果不显示插件，请检查映射的`config`文件夹权限是否正确！
 
 ![photo_2023-05-14_21-45-18](https://github.com/Shurelol/Emby.CustomCssJS/assets/16237201/b3890993-e5e7-497f-915c-8df75c53f64a)
 
