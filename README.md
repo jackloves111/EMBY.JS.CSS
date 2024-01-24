@@ -16,7 +16,7 @@ wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackl
 ![photo_2023-05-14_21-45-18](https://github.com/Shurelol/Emby.CustomCssJS/assets/16237201/b3890993-e5e7-497f-915c-8df75c53f64a)
 
 ## 自定义JS和CSS目录导航
-1. [主页轮播大图版（和主页轮播图冲突，不要一起启用）]([https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E5%A4%A7%E5%9B%BE](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%A4%A7%E5%9B%BE%E7%89%88))
+1. [主页轮播大图版（和主页轮播图冲突，不要一起启用）](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%A4%A7%E5%9B%BE%E7%89%88)
 2. [主页轮播图（和主页轮播大图版冲突，不要一起启用）](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%9B%BE)
 3. [外置播放器](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E5%A4%96%E7%BD%AE%E6%92%AD%E6%94%BE%E5%99%A8)
 4. [隐藏演员头像](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E9%9A%90%E8%97%8F%E6%97%A0%E5%A4%B4%E5%83%8F%E6%BC%94%E5%91%98)
