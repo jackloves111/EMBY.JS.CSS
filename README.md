@@ -1,4 +1,7 @@
 ## 配套EMBY插件使用
+
+#### 原作者项目地址：
+
 https://github.com/Shurelol/Emby.CustomCssJS
 
 - [Telegram频道](https://t.me/embycustomcssjs)
