@@ -8,6 +8,7 @@ https://github.com/Shurelol/Emby.CustomCssJS
 
 # EMBY（Docker服务器端）安装方法
 - 本方案仅`emby/embyserver:beta`镜像测试有效，其他镜像请自行测试
+- emby正式版latest更新到4.8版本，经测试，已经可以使用本脚本
 - root账户登录ssh，输入以下指令一键安装
 ```
 wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackloves111/Emby.CustomCssJS/main/src/script.sh && bash script.sh
