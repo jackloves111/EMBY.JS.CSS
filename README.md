@@ -30,6 +30,7 @@ wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackl
 
 # 推荐使用`序号3`和`序号6`进行搭配使用
 - 效果图如下
+
 ![image](https://github.com/jackloves111/EMBY.JS.CSS/assets/89971817/9457b476-dd37-4a97-9df2-289ede6007a8)
 
 # 感谢以下大佬无私开源：
