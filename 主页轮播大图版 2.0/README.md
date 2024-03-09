@@ -4,6 +4,8 @@
 
 - 原作者：https://github.com/newday-life/emby-front-end-mod
 
+## 效果预览
+![image](https://github.com/jackloves111/EMBY.JS.CSS/assets/89971817/9457b476-dd37-4a97-9df2-289ede6007a8)
 
 # 以下为转载的说明文档
 ## 使用方法1： 
