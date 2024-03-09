@@ -20,19 +20,25 @@ wget -O script.sh --no-check-certificate https://raw.githubusercontent.com/jackl
 ![photo_2023-05-14_21-45-18](https://github.com/Shurelol/Emby.CustomCssJS/assets/16237201/b3890993-e5e7-497f-915c-8df75c53f64a)
 
 # 自定义JS和CSS目录导航
-1. [主页轮播大图版（和主页轮播图冲突，不要一起启用）](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%A4%A7%E5%9B%BE%E7%89%88)
-2. [主页轮播图（和主页轮播大图版冲突，不要一起启用）](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%9B%BE)
-3. [外置播放器](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E5%A4%96%E7%BD%AE%E6%92%AD%E6%94%BE%E5%99%A8)
-4. [隐藏演员头像](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E9%9A%90%E8%97%8F%E6%97%A0%E5%A4%B4%E5%83%8F%E6%BC%94%E5%91%98)
-5. [页面美化合集](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/页面美化合集)
+1. [主页轮播大图版（不要一起启用）](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%A4%A7%E5%9B%BE%E7%89%88)
+2. [主页轮播图（不要一起启用）](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%9B%BE)
+3. [主页轮播图（不要一起启用）](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E4%B8%BB%E9%A1%B5%E8%BD%AE%E6%92%AD%E5%A4%A7%E5%9B%BE%E7%89%88%202.0)
+- 上述主页轮播图三选一即可，不要同时启用，否则可能出现浏览器无法访问的情况  
+4. [外置播放器](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E5%A4%96%E7%BD%AE%E6%92%AD%E6%94%BE%E5%99%A8)
+5. [隐藏演员头像](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/%E9%9A%90%E8%97%8F%E6%97%A0%E5%A4%B4%E5%83%8F%E6%BC%94%E5%91%98)
+6. [页面美化合集](https://github.com/jackloves111/EMBY.JS.CSS/tree/main/页面美化合集)
 
-# 推荐使用序号2和序号5进行搭配使用
+# 推荐使用`序号3`和`序号6`进行搭配使用
 - 效果图如下
 
 ![296552982-1190e531-0374-4912-ad00-c42ddd30086a_看图王](https://github.com/jackloves111/EMBY.JS.CSS/assets/89971817/18f8df26-9677-4f11-8120-7584ebe1c9a0)
 
 # 感谢以下大佬无私开源：
-@Shurelol
-@Nolovenodie
+
+[@Shurelol](https://github.com/Shurelol)
+
+[@Nolovenodie](https://github.com/Nolovenodie/emby-crx)
+
+[@newday-life](https://github.com/newday-life)
 
 其他作者暂未找到github地址，再次感谢！
