@@ -44,6 +44,7 @@ class HomeSwiper {
             .section0 {
               display: none;
           }
+	  }
 	  
           .swiper-pagination-bullet {
             transition: height 0.2s ease-in-out 0s;
