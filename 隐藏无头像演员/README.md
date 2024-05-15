@@ -1,3 +1,7 @@
+# 请访问原作地址下载代码
+
+### 由于本项目本身是以转载、整理、合集为主，参与开发的部分直接PR在原作者项目里，请访问原作项目地址进行代码下载和使用
+
 ## 原作者地址
 https://github.com/newday-life/emby-front-end-mod/tree/main/actorPlus
 
