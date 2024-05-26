@@ -1,0 +1,9 @@
+/*当横屏时，隐藏我的媒体，以免和大图媒体重复*/
+@media not all and (max-width: 50em) {
+    .section0 {
+        display: none;
+    }
+    .cardLibText {
+        display: none;
+    }
+}
