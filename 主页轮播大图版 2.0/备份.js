@@ -979,13 +979,15 @@ class HomeSwiper {
 						}
 					},
 					reachEnd: function (swiper) {
-						swiper.autoplay.stop();
-						setTimeout(() => {
-							this.swiper2.slideNext();
-						}, 10e3);
-						setTimeout(() => {
-							swiper.slideTo(0);
-						}, 11e3);
+						if (swiper.initialized) {
+							swiper.autoplay.stop();
+							setTimeout(() => {
+								this.swiper2.slideNext();
+							}, 10e3);
+							setTimeout(() => {
+								swiper.slideTo(0);
+							}, 11e3);
+						}
 					}.bind(this),
 				},
 				slidesPerView: 1,
