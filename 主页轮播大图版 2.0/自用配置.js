@@ -905,6 +905,14 @@ class HomeSwiper {
                     };
                 },
                 breakpoint: function (swiper) {
+                    if (swiper.params.slidesPerView > this.Alldata.length) {
+                        swiper.params.loop = false;
+                        swiper.wrapperEl.style["justify-content"] = "flex-end"
+
+                    } else {
+                        swiper.params.loop = true;
+                        swiper.wrapperEl.style["justify-content"] = "flex-start";
+                    }
                     if (swiper.params.slidesPerView > 3) {
                         swiper.el.style.width = "min(" + swiper.params.slidesPerView * 15 + "%,66%)";
                     } else {
