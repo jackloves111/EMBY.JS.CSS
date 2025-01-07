@@ -1,0 +1,425 @@
+.has-trailer {
+    position: relative;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.8); /* Subtle white glow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+    border-radius: 8px; /* Optional: Match the image's border radius */
+}
+
+.has-trailer:hover {
+    box-shadow: 0 0 10px 3px rgba(255, 0, 150, 0.3);
+    transition: box-shadow 0.2s ease-in-out; /* Smooth transition when glow disappears */
+}
+
+/* Apply styles to the button */
+.injectJavdb {
+    opacity: 1;
+    transition: color 0.3s, transform 0.3s, box-shadow 0.3s, filter 0.3s;
+}
+
+.injectJavdb:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: linear-gradient(135deg, rgba(255, 0, 150, 0.3), rgba(0, 150, 255, 0.3)); /* Add a gradient background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 150, 255, 0.5); /* Add subtle shadow and glow */
+}
+
+/* Change the text and icon color to pink */
+.injectJavdb .button-text,
+.injectJavdb .button-icon {
+    color: pink;
+    transition: color 0.3s, filter 0.3s;
+}
+
+/* Change the text and icon color to black and brighten them when hovered */
+.injectJavdb:hover .button-text,
+.injectJavdb:hover .button-icon {
+    color: black !important;
+}
+
+/* Change the text and icon color to pink */
+.injectJavbus .button-text,
+.injectJavbus .button-icon {
+    color: rgb(255, 129, 129) !important;
+}
+
+.noUncensored {
+    opacity: 1;
+    transition: color 0.3s, transform 0.3s, box-shadow 0.3s, filter 0.3s;
+}
+
+.noUncensored:hover .button-text,
+.noUncensored:hover .button-icon {
+    color: grey !important;
+}
+
+/*
+.noUncensored .button-text,
+.noUncensored .button-icon {
+    color: grey !important;
+}
+*/
+
+
+.melt-away {
+    animation: sandMeltAnimation 1s ease-out forwards; /* Apply the animation */
+}
+
+@keyframes sandMeltAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.my-fanart-image {
+    display: inline-block;
+    margin: 8px 10px 8px 10px;
+    vertical-align: top;
+    border-radius: 8px;
+    height: 27vh; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.my-fanart-image:hover {
+    transform: scale(1.03);
+    filter: brightness(80%);
+}
+
+/*
+#myFanart {
+    margin: 0px calc(7.7vh) 10px calc(7.7vh); 
+    transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+
+@media screen and (max-width: 1024px), screen and (min-resolution: 2dppx) {
+    #myFanart {
+        margin: 0px calc(6.2vh) 10px calc(6.2vh); 
+    }
+}
+*/
+
+
+/* Style for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.modal-closing .modal-content {
+    animation-name: shrinkAndRotate;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, padding 0.3s;
+    border-radius: 50%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    user-select: none;
+    caret-color: transparent;
+}
+
+.prev,
+.next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+    transform: translateY(-50%) translateX(-50%);
+    transition: background-color 0.3s, transform 0.3s, padding 0.3s;
+    border-radius: 50%;
+    padding: 35px;
+}
+
+.prev {
+    left: 80px;
+}
+
+.next {
+    right: 20px;
+}
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 35px;
+    }
+
+.close:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+
+@keyframes shrinkAndRotate {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+.click-smaller {
+    transform: scale(0.9) translate(-50%, -50%);
+    transition: transform 0.2s;
+}
+
+.prev.disabled,
+.next.disabled {
+    color: grey !important;
+    cursor: default;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    75% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.modal-caption {
+    position: fixed;
+    bottom: 10px; /* Adjust distance from bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6); /* Optional background for readability */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.video-element {
+    position: absolute; /* Position the video on top */
+    width: 100%; /* Default: fill the container width */
+    height: 100%; /* Default: fill the container height */
+    object-fit: contain; /* Ensure the aspect ratio is preserved while filling the container */
+    z-index: 3; /* Ensure the video appears above the image */
+    pointer-events: auto; /* Allow interaction with the video */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.copy-link {
+    color: lightblue; /* Set the link color */
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.1s ease; /* Add transition for smooth scaling effect */
+}
+
+.copy-link:active {
+    transform: scale(0.95); /* Shrink the link when clicked */
+}
+
+/* Style for the mediaInfoItem */
+.media-info-item {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Style for the <a> elements inside mediaInfoItem */
+.media-info-item a {
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    -webkit-backdrop-filter: blur(5em); /* For Safari */
+    backdrop-filter: blur(5em); /* For other browsers */
+    font-weight: 600; /* Slightly bolder for a more prominent look */
+    font-family: 'Poppins', sans-serif; /* Use a modern and elegant font */
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    text-decoration: none; /* Remove underline for cleaner look */
+    color: #ffffff; /* Set text color to white for better contrast */
+}
+
+/* Hover effect for the <a> elements */
+.media-info-item a:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: linear-gradient(135deg, rgba(255, 0, 150, 0.3), rgba(0, 150, 255, 0.3)); /* Add a gradient background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 150, 255, 0.5); /* Add subtle shadow and glow */
+}
+
+/* Style for the pageButton */
+.pageButton {
+    cursor: pointer;
+    padding: 6px 16px;
+    background: rgb(255 255 255 / 15%);
+    border-radius: 5px; /* Increased border-radius for a smoother look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added box-shadow for a lifted appearance */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+.pageButton:hover {
+    background: rgb(255 255 255 / 85%);
+    color: black; /* Changed font color to black for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adjusted box-shadow on hover for emphasis */
+}
+
+/* Media query for resizing pageButton and related elements */
+@media (max-aspect-ratio: 1/1) {
+    .pageButton,
+    .pageNumber,
+    #checkBoxNextPage,
+    label[for="checkBoxNextPage"],
+    #pageInput-actorPage { /* Include the input box */
+        font-size: 60%; /* Halve the font size for all relevant elements */
+    }
+
+    #pageInput-actorPage {
+        padding: 3px; /* Adjust padding for smaller font size */
+    }
+}
+
+#pageInput-actorPage::-webkit-inner-spin-button,
+#pageInput-actorPage::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#pageInput-actorPage {
+    -moz-appearance: textfield; /* For Firefox */
+    appearance: none; /* For modern browsers */
+    height: auto;
+    text-align: center;
+    padding: 5px; /* Adds padding for better visuals */
+
+    /* Match font styles with #pageNumber-actorPage */
+    font-family: inherit; /* Use the same font as the parent */
+    font-size: inherit; /* Inherit the font size from the parent */
+    font-weight: inherit; /* Inherit font weight */
+    line-height: inherit; /* Ensure consistent line height */
+}
+
+
+/* Style for the checkbox (#checkBoxNextPage) */
+#checkBoxNextPage {
+    width: 25px; /* Make the checkbox larger */
+    height: 25px; /* Make the checkbox larger */
+    background: rgb(255 255 255 / 15%); /* Blurred background */
+    backdrop-filter: blur(5px); /* Blurred background */
+    border-radius: 10%; /* Make the checkbox round */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    margin-left: 20px; /* Add left margin for spacing */
+    padding: 5px; /* Add padding for spacing inside the checkbox */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+#checkBoxNextPage:checked {
+    background-color: rgba(255, 0, 150, 0.3); /* Solid color */
+}
+
+#checkBoxNextPage + label {
+    margin-left: 5px; /* Add left margin for spacing between checkbox and label */
+}
+
+#checkBoxNextPage:hover {
+    background-color: white; /* Change background color on hover */
+}
+
+.myCardImage {
+    transition: filter 0.2s ease; /* Smooth transition for the blur effect */
+}
+
+.myCardImage:hover {
+    filter: brightness(70%); /* Apply a blur effect on hover */
+}
+
+#toggleFanart {
+    padding: 10px 20px; /* Increase padding for a bigger button */
+    font-size: 18px; /* Larger font size */
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent white background */
+    margin-top: 15px; /* More spacing above the button */
+    margin-bottom: 15px; /* More spacing below the button */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Increase border-radius for rounded corners */
+    font-weight: 700; /* Bolder text */
+    font-family: 'Poppins', sans-serif; /* Use a modern font */
+    color: #ffffff; /* White text */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: block; /* Ensure it's a block-level element */
+    margin-left: auto; /* Center the button horizontally */
+    margin-right: auto; /* Center the button horizontally */
+    -webkit-backdrop-filter: blur(5em); /* Blur effect for Safari */
+    backdrop-filter: blur(5em); /* Blur effect for other browsers */
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+#toggleFanart:hover {
+    transform: scale(1.1); /* More pronounced enlargement on hover */
+    background: linear-gradient(135deg, rgba(255, 0, 150, 0.4), rgba(0, 150, 255, 0.4)); /* Slightly more intense gradient */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 150, 255, 0.6); /* Increase shadow and glow */
+    color: #ffffff; /* Ensure text remains white */
+}
+
+#toggleFanart:active {
+    transform: scale(0.95); /* Slight shrink on click */
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3); /* Slightly reduce shadow */
+}
+
+
+@media (max-width: 50em) {
+    .swiper-thumbs {
+        display: none !important;
+    }
+}
